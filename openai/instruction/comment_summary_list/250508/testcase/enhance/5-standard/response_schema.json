@@ -1,0 +1,68 @@
+{
+  "name": "content_summary_list_enhance",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "benchmark_details": {
+        "type": "object",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "description": "The cryptocurrency symbol for which the benchmark content pertains."
+          },
+          "content_id": {
+            "type": "string",
+            "description": "A special string identifier for the benchmark content (e.g., 'BENCHMARK_FROM_ID_1')."
+          },
+          "result": {
+            "type": "integer",
+            "description": "The pre-assigned similarity score (0–100) for the benchmark content, copied from the input."
+          },
+          "content": {
+            "type": "string",
+            "description": "The main content or summary of the benchmark article, copied from the input."
+          },
+          "comment": {
+            "type": "string",
+            "description": "The pre-assigned comment explaining the benchmark score, copied from the input (if provided)."
+          }
+        },
+        "required": ["symbol", "content_id", "result", "content", "comment"],
+        "additionalProperties": false
+      },
+      "articles_list": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "The cryptocurrency symbol for which the evaluated content pertains."
+            },
+            "content_id": {
+              "type": "integer",
+              "description": "Unique identifier for the evaluated content, copied from the input list."
+            },
+            "result": {
+              "type": "integer",
+              "description": "A similarity score (0–100) indicating how closely the evaluated content matches the reference article, benchmarked against 'benchmark_details'."
+            },
+            "content": {
+              "type": "string",
+              "description": "The main content or summary that describes the event for the evaluated article."
+            },
+            "comment": {
+              "type": "string",
+              "description": "A detailed explanation (with at least 2 reasoning points) of why the similarity score was assigned to the evaluated article."
+            }
+          },
+          "required": ["symbol", "content_id", "result", "content", "comment"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["benchmark_details", "articles_list"],
+    "additionalProperties": false
+  }
+}

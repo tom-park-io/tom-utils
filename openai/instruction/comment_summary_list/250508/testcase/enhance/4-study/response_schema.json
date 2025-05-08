@@ -1,0 +1,41 @@
+{
+  "name": "content_summary_list",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "articles_list": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "The cryptocurrency symbol for which the content pertains."
+            },
+            "content_id": {
+              "type": "integer",
+              "description": "Unique identifier for the content."
+            },
+            "result": {
+              "type": "integer",
+              "description": "A similarity score (0–100) indicating how closely the content matches the reference article."
+            },
+            "content": {
+              "type": "string",
+              "description": "The main content or summary that describes the event."
+            },
+            "comment": {
+              "type": "string",
+              "description": "A detailed explanation (with at least 2 reasoning points) of why the similarity score was assigned."
+            }
+          },
+          "required": ["symbol", "content_id", "result", "content", "comment"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["articles_list"],
+    "additionalProperties": false
+  }
+}

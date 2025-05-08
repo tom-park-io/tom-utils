@@ -1,0 +1,74 @@
+{
+  "benchmark_details": {
+    "symbol": "BTC",
+    "content_id": "BENCHMARK_EXAMPLE",
+    "result": 20,
+    "content": "MicroStrartegy sells bitcoin Keywords: MicroStrategy, Michael Saylor, Bitcoin, sell-off, offloads, liquidates",
+    "comment": "This article, focusing on MicroStrategy's Bitcoin sales, is entirely unrelated to the reference article about U.S. tariffs. The subjects (cryptocurrency sale vs. international trade policy) and entities involved (MicroStrategy vs. Trump/government) are completely different."
+  },
+  "articles_list": [
+    {
+      "symbol": "BTC",
+      "content_id": 1,
+      "result": 25,
+      "content": "FED cuts interest rate Keywords: FED, lower, easing, QE, dovish, reduction, stimulus",
+      "comment": "1) This article discusses the Federal Reserve's monetary policy (interest rate cuts), which is a macroeconomic topic but unrelated to tariffs or trade policy. 2) There is no mention of tariffs, Trump, or international trade, making it only loosely related in the sense that both are major economic policy decisions. The similarity is low, consistent with the benchmark example."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 2,
+      "result": 20,
+      "content": "Major U.S. companies (e.g. Apple, Microsoft) starts accepting crypto payments. Keywords: US, USA, big company, major, crypto payment, adoption, bitcoin, crypto",
+      "comment": "1) This article is about U.S. companies adopting crypto payments, which is unrelated to tariffs or Trump’s trade policy. 2) The only overlap is the U.S. context, but the subject matter (corporate crypto adoption vs. government tariffs) is entirely different, matching the low similarity of the benchmark."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 3,
+      "result": 20,
+      "content": "China allows crypto trading Keywords: China, Xi, allows, legalizes, adopts, pro-crypto, approves, enable, assess, crypto, bitcoin",
+      "comment": "1) This article focuses on China legalizing crypto trading, which is unrelated to U.S. tariffs or Trump’s policy. 2) While both involve major government decisions, the topics (crypto regulation vs. tariffs) and countries (China vs. U.S.) are different, so the similarity is very low, as with the benchmark."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 4,
+      "result": 20,
+      "content": "Tesla implements Bitcoin payment system Keywords: Tesla, allows, adopts, Bitcoin, crypto, payment, crypto adoption, Elon Musk",
+      "comment": "1) The article is about Tesla adopting Bitcoin payments, which is unrelated to tariffs or Trump’s trade policy. 2) The only connection is a broad economic context, but the focus is on corporate crypto adoption, not government policy, so the similarity is very low, consistent with the benchmark."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 5,
+      "result": 10,
+      "content": "PAKISTAN DEFENCE MINISTER: WILL ONLY HIT MILITARY TARGETS, NOT CIVILIAN, IN RETALIATION",
+      "comment": "1) This article is about military policy and retaliation by Pakistan, which is completely unrelated to U.S. tariffs or economic policy. 2) There is no overlap in subject, context, or industry, making it even less related than the benchmark example."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 6,
+      "result": 20,
+      "content": "Bybit gets hacked. keywords: Bybit, hack, cyber attack, data leak, massive, outflow, withdraw",
+      "comment": "1) The article discusses a crypto exchange hack, which is unrelated to tariffs or U.S. trade policy. 2) The only connection is the broad financial context, but the event type and focus are entirely different, so the similarity is very low, matching the benchmark."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 7,
+      "result": 25,
+      "content": "• Federal Reserve keeps interest rates steady at 4.25%-4.5% - [Tree]",
+      "comment": "1) This article is about the Federal Reserve's interest rate decision, which, like the reference article, is a major economic policy announcement. 2) However, it is not related to tariffs or Trump’s trade policy, so the similarity is low, but slightly higher than the benchmark due to the macroeconomic policy context."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 8,
+      "result": 20,
+      "content": "JUST IN: 🇺🇸 Treasury Secretary Bessent says \"digital assets are an important source of innovation that will drive usage of the US dollar.\" @WatcherGuru",
+      "comment": "1) This article discusses the U.S. Treasury Secretary's comments on digital assets and the dollar, which is unrelated to tariffs or Trump’s trade policy. 2) The only overlap is the U.S. government context, but the subject matter is entirely different, so the similarity is very low, consistent with the benchmark."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 9,
+      "result": 20,
+      "content": "David Bailing Raising $300M To Launch Public Bitcoin Trading Company: The Information 🔗 velo.xyz",
+      "comment": "1) This article is about raising funds for a Bitcoin trading company, which is unrelated to tariffs or Trump’s trade policy. 2) There is no overlap in subject, event type, or context, so the similarity is very low, matching the benchmark."
+    }
+  ]
+}

@@ -36,7 +36,10 @@ func main() {
 	assistantID := "YOUR_ASSISTANT_ID"
 	baseUrl := "https://api.openai.com/v1"
 
-	input, err := utils.LoadInputFromFile("../../../input_data.json")
+	inputPath := "../input_data.json"
+	outputPath := "../2-api/result"
+
+	input, err := utils.LoadInputFromFile(inputPath)
 	if err != nil {
 		fmt.Println("마샬 실패:", err)
 		return
@@ -225,8 +228,7 @@ func main() {
 			}
 			if len(result.Data) > 0 && len(result.Data[0].Content) > 0 {
 				contentValue := result.Data[0].Content[0].Text.Value
-
-				filename := fmt.Sprintf("../result/test_result_%d.json", i+1)
+				filename := fmt.Sprintf("%s/test_result_%d.json", outputPath, i+1)
 				if err := os.WriteFile(filename, []byte(contentValue), 0644); err != nil {
 					fmt.Println("파일 저장 실패:", err)
 				} else {

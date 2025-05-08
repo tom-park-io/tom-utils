@@ -3,3 +3,4 @@ node_modules
 /key
 /test
 **/env.go
+.DS_Store

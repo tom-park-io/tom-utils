@@ -1,0 +1,74 @@
+{
+  "articles_list": [
+    {
+      "symbol": "DOGE",
+      "content_id": 1,
+      "result": 85,
+      "content": "Elon Musk tweets a meme about Dogecoin, causing a 10% price spike within hours.",
+      "comment": "This article is closely related to the reference article as both focus on Elon Musk's influence on Dogecoin's price movements. The reference article discusses Musk's announcement about Tesla accepting Dogecoin, while this article covers a meme tweet by Musk that also impacts DOGE's price. Both share the same central figure (Musk), the same cryptocurrency (DOGE), and the theme of price surges triggered by Musk's actions. However, the specific event (Tesla accepting DOGE vs. Musk tweeting a meme) differs, so the score is not a perfect match."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 2,
+      "result": 35,
+      "content": "A bipartisan group of U.S. lawmakers introduces a new crypto taxation bill targeting high-net-worth individuals.",
+      "comment": "This article is only loosely related to the reference article. Both are about cryptocurrency, but the reference focuses on Dogecoin and a corporate adoption event, while this article discusses U.S. crypto taxation policy. There is some thematic overlap in the broader crypto industry, but the events, tokens, and context are different."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 3,
+      "result": 30,
+      "content": "Russia explores launching its own digital ruble as sanctions tighten amid global tensions.",
+      "comment": "This article is only tangentially related. While both are in the digital currency space, the reference is about a private company's adoption of Dogecoin, whereas this article discusses a sovereign digital currency initiative by Russia. There is minimal overlap in subject matter, with no mention of Dogecoin, Elon Musk, or corporate crypto adoption."
+    },
+    {
+      "symbol": "ETH",
+      "content_id": 4,
+      "result": 40,
+      "content": "A prominent Hollywood actor launches an NFT collection, selling out within minutes and generating $5 million.",
+      "comment": "This article is somewhat related as both involve crypto adoption in popular culture and mainstream settings. However, the reference article is about Tesla and Dogecoin, while this article focuses on NFTs and a celebrity. The overlap is limited to the general theme of crypto adoption and pop culture, but the tokens, events, and actors are different."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 5,
+      "result": 30,
+      "content": "The Pentagon investigates the security implications of blockchain use in defense logistics.",
+      "comment": "This article is only loosely related. Both involve blockchain or crypto, but the reference is about Dogecoin adoption for merchandise by Tesla, while this article is about blockchain security in military logistics. There is little overlap in topic, event, or context."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 6,
+      "result": 60,
+      "content": "Trump's campaign accepts Bitcoin donations, marking the first major political campaign to do so in 2025.",
+      "comment": "This article is moderately related as both discuss high-profile entities adopting cryptocurrency for payments. The reference article is about Tesla accepting Dogecoin for merchandise, while this article is about a political campaign accepting Bitcoin donations. The similarity lies in the theme of mainstream adoption of crypto, but the tokens, sectors (corporate vs. political), and specific events differ."
+    },
+    {
+      "symbol": "ETH",
+      "content_id": 7,
+      "result": 30,
+      "content": "Vitalik Buterin warns about rising Ethereum gas fees, suggesting potential protocol adjustments.",
+      "comment": "This article is only loosely related. While both are about cryptocurrencies, the reference focuses on Dogecoin adoption by Tesla, whereas this article discusses Ethereum's technical challenges. There is no overlap in event, token, or context beyond the general crypto industry."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 8,
+      "result": 35,
+      "content": "Mark Cuban invests in a new DeFi project focusing on yield farming and liquidity pools.",
+      "comment": "This article is loosely related. Both involve prominent figures in the crypto space, but the reference is about Musk and Dogecoin, while this article is about Mark Cuban and DeFi. The overlap is limited to celebrity involvement in crypto, with different tokens, events, and sectors."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 9,
+      "result": 40,
+      "content": "A cyberattack on a major crypto exchange leads to a temporary halt in withdrawals worldwide.",
+      "comment": "This article is somewhat related as both are significant events in the crypto industry. However, the reference is about positive adoption news for Dogecoin, while this article covers a negative security incident affecting exchanges. The overlap is limited to the broader crypto context, with no direct connection in event or token."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 10,
+      "result": 35,
+      "content": "The IMF publishes a critical report on El Salvador's Bitcoin adoption, raising economic stability concerns.",
+      "comment": "This article is loosely related. Both discuss crypto adoption, but the reference is about Tesla and Dogecoin, while this article focuses on national Bitcoin adoption and IMF concerns. The overlap is in the theme of crypto adoption, but the tokens, actors, and contexts are different."
+    }
+  ]
+}

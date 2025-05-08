@@ -1,0 +1,74 @@
+{
+  "articles_list": [
+    {
+      "symbol": "BTC",
+      "content_id": 1,
+      "result": 20,
+      "content": "MicroStrartegy sells bitcoin Keywords: MicroStrategy, Michael Saylor, Bitcoin, sell-off, offloads, liquidates",
+      "comment": "This article is about MicroStrategy selling Bitcoin, which is unrelated to the reference article's focus on U.S. tariffs. There is no overlap in keywords or event type. The only very broad connection is that both could influence financial markets, but the contextual focus is entirely different."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 2,
+      "result": 30,
+      "content": "FED cuts interest rate Keywords: FED, lower, easing, QE, dovish, reduction, stimulus",
+      "comment": "While both articles concern major U.S. economic policy decisions, the reference article is about tariffs (trade policy) and this article is about monetary policy (interest rates). There is a loose thematic overlap in macroeconomic impact, but the specific events and policy areas are different."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 3,
+      "result": 25,
+      "content": "Major U.S. companies (e.g. Apple, Microsoft) starts accepting crypto payments. Keywords: US, USA, big company, major, crypto payment, adoption, bitcoin, crypto",
+      "comment": "This article discusses crypto adoption by major U.S. companies, which is unrelated to the reference article's focus on tariffs. The only overlap is the U.S. context, but the subject matter and event type are different."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 4,
+      "result": 25,
+      "content": "China allows crypto trading Keywords: China, Xi, allows, legalizes, adopts, pro-crypto, approves, enable, assess, crypto, bitcoin",
+      "comment": "This article is about China's legalization of crypto trading, which is unrelated to U.S. tariff policy. Both involve government decisions, but the topics (crypto regulation vs. tariffs) and countries involved are different, with no direct connection."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 5,
+      "result": 20,
+      "content": "Tesla implements Bitcoin payment system Keywords: Tesla, allows, adopts, Bitcoin, crypto, payment, crypto adoption, Elon Musk",
+      "comment": "This article is about Tesla adopting Bitcoin payments, which is unrelated to the reference article's focus on tariffs. There is no overlap in keywords, event type, or contextual focus beyond both being economic news."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 6,
+      "result": 10,
+      "content": "PAKISTAN DEFENCE MINISTER: WILL ONLY HIT MILITARY TARGETS, NOT CIVILIAN, IN RETALIATION",
+      "comment": "This article is about military policy in Pakistan and has no relation to U.S. tariffs, trade, or cryptocurrency. There is no thematic or contextual overlap with the reference article."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 7,
+      "result": 20,
+      "content": "Bybit gets hacked. keywords: Bybit, hack, cyber attack, data leak, massive, outflow, withdraw",
+      "comment": "This article covers a crypto exchange hack, which is unrelated to the reference article's focus on tariffs. The only very broad connection is that both could affect markets, but the subject, event, and industry focus are different."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 8,
+      "result": 30,
+      "content": "• Federal Reserve keeps interest rates steady at 4.25%-4.5% - [Tree]",
+      "comment": "This article is about U.S. monetary policy (interest rates), which is a different area from trade policy and tariffs. Both are macroeconomic topics, but there is no direct overlap in event or focus."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 9,
+      "result": 20,
+      "content": "JUST IN: 🇺🇸 Treasury Secretary Bessent says \"digital assets are an important source of innovation that will drive usage of the US dollar.\" @WatcherGuru",
+      "comment": "This article discusses digital assets and their impact on the U.S. dollar, which is unrelated to the reference article's focus on tariffs. There is no overlap in event, keywords, or direct context."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 10,
+      "result": 20,
+      "content": "David Bailing Raising $300M To Launch Public Bitcoin Trading Company: The Information 🔗 velo.xyz",
+      "comment": "This article is about raising funds for a Bitcoin trading company, which is unrelated to the reference article's topic of tariffs. There is no overlap in keywords, event type, or contextual focus."
+    }
+  ]
+}

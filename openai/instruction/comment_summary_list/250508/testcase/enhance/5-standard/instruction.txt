@@ -1,0 +1,81 @@
+Objective:
+You are given a single reference news article, an example comparison, and a list of other news articles. Your task is to evaluate each article in the `list of articles` and score how similar it is to the reference article, using the provided example comparison as a benchmark. This helps determine how closely each article matches the reference article’s topic and content with greater consistency.
+
+Similarity Scoring:
+- For each article in the `list of articles`, assign a result score (integer from 0 to 100) representing how closely it matches the reference article. This scoring should be calibrated against the `Example comparison` provided in the input.
+- Use the following scale:
+  - 100: Exact or near-exact match — essentially the same story.
+  - 90–99: Same event or development with minor differences in expression or details.
+  - 70–89: Same topic but different event (related news under the same theme).
+  - 30–69: Loosely related; overlaps in broader theme or industry.
+  - 0–29: Clearly unrelated; different subject or industry.
+
+Symbol Selection:
+- For the benchmark example article (derived from `example_comparison.content`) and for each article in the `list of articles`, select the most relevant cryptocurrency ticker symbol (in uppercase):
+  - If the article clearly focuses on a single crypto token (e.g., Ethereum), use its symbol (e.g., "ETH").
+  - If multiple tokens are mentioned, choose the most prominent one.
+  - If no cryptocurrency is mentioned, default to "BTC".
+
+Input Format:
+- Reference news article: a plain text string.
+- Example comparison: an object containing:
+    - content: a string of news article text for the example.
+    - result: an integer score (0-100) pre-assigned to this example article, demonstrating the desired scoring standard.
+    - comment: (Optional but Recommended) a string explaining why this specific score was given to the example article. This helps calibrate the model's understanding of your scoring criteria.
+- List of articles: a JSON array, where each object contains at least:
+  - content_id: unique integer ID
+  - content: a string of news article text
+
+Output Format:
+Return a JSON object containing the following two top-level keys:
+- `benchmark_details`: An object containing information about the benchmark example. It will include:
+    - `symbol`: The selected crypto symbol (uppercase) derived from `example_comparison.content`.
+    - `content_id`: A special string identifier for the benchmark example (e.g., "BENCHMARK_EXAMPLE" or if an original ID was associated, like "BENCHMARK_FROM_ID_1"). This `content_id` is for identification purposes of the benchmark data itself.
+    - `result`: The score copied directly from `example_comparison.result`.
+    - `content`: The news article text copied from `example_comparison.content`.
+    - `comment`: The comment copied directly from `example_comparison.comment` (if provided).
+- `evaluated_articles`: A JSON array, where each item is an object representing an evaluated article from the input `list of articles`. Each object will have the following fields:
+  - `symbol`: The selected crypto symbol (uppercase).
+  - `content_id`: Copied from the input `list of articles`.
+  - `result`: Similarity score (integer 0–100) assigned by the model, benchmarked against the `benchmark_details`.
+  - `content`: Copied directly from the input article’s content from `list of articles`.
+  - `comment`: A **detailed explanation** (minimum 2 reasoning points) of why the similarity score was assigned, including key factors such as keyword overlap, event type, contextual focus, relating back to the `Reference news article` and the benchmark provided in `benchmark_details`.
+
+Example Output:
+{
+  "benchmark_details": {
+    "symbol": "BTC",
+    "content_id": "BENCHMARK_FROM_ID_1", // Indicates this benchmark was based on original ID 1
+    "result": 20,
+    "content": "MicroStrartegy sells bitcoin Keywords: MicroStrategy, Michael Saylor, Bitcoin, sell-off, offloads, liquidates",
+    "comment": "This article, focusing on MicroStrategy's Bitcoin sales, is entirely unrelated to the reference article about U.S. tariffs. The subjects (cryptocurrency sale vs. international trade policy) and entities involved (MicroStrategy vs. Trump/government) are completely different."
+  },
+  "evaluated_articles": [
+    {
+      "symbol": "BTC",
+      "content_id": 2,
+      "result": 95,
+      "content": "U.S. and China negotiate mutual tariffs affecting crypto trade.",
+      "comment": "This article discusses the same U.S.–China tariff negotiations as the reference article and also mentions the impact on crypto trading. The wording is slightly different but covers the same core event. Its high similarity is consistent with the benchmark provided in 'benchmark_details' (which scored low for an unrelated topic)."
+    },
+    {
+      "symbol": "ETH",
+      "content_id": 3,
+      "result": 75,
+      "content": "Ethereum price surges after SEC announces new guidelines.",
+      "comment": "The reference article focuses on general crypto regulation, while this article highlights a specific effect on Ethereum's price. Both share the theme of regulation, but the focal point and event are different. The score reflects a related but distinct event compared to the reference and the 'benchmark_details'."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 4,
+      "result": 25,
+      "content": "Oil prices soar after OPEC decision on supply cuts.",
+      "comment": "This article covers the oil market and OPEC's decision, with no mention of cryptocurrency or related financial markets. It is unrelated to the reference article in both subject and industry, scoring low, similar to how the 'benchmark_details' (unrelated to tariffs) scored low."
+    }
+  ]
+}
+
+Important:
+- Do not simply summarize; provide concrete reasoning in each `comment` for articles in `evaluated_articles` (at least 2 key observations).
+- The task focuses on **meaning-based similarity**, not just word overlap.
+- Use the provided `Example comparison` (which will be detailed in `benchmark_details` in the output) as a benchmark for scoring articles in `evaluated_articles`. The comments for `evaluated_articles` should reflect this benchmarking.
