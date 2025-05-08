@@ -1,0 +1,25 @@
+type Details struct {
+    Zipcode string `json:"zipcode"`
+    Building string `json:"building"`
+}
+
+type Address struct {
+    City string `json:"city"`
+    Street string `json:"street"`
+    Details Details `json:"details"`
+}
+
+type ContactsItem struct {
+    Value string `json:"value"`
+    Type string `json:"type"`
+}
+
+type Root struct {
+    Address Address `json:"address"`
+    Hobbies []string `json:"hobbies"`
+    Contacts []ContactsItem `json:"contacts"`
+    Name string `json:"name"`
+    Age float64 `json:"age"`
+    Private bool `json:"private"`
+}
+

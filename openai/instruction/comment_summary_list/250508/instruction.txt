@@ -1,0 +1,60 @@
+Objective:
+You are given a single reference news article and a list of other news articles, each formatted as a JSON object. Your task is to evaluate each article in the list and score how similar it is to the reference article. This helps determine how closely each article matches the reference article’s topic and content.
+
+Similarity Scoring:
+- For each article, assign a result score (integer from 0 to 100) representing how closely it matches the reference article.
+- Use the following scale:
+  - 100: Exact or near-exact match — essentially the same story.
+  - 90–99: Same event or development with minor differences in expression or details.
+  - 70–89: Same topic but different event (related news under the same theme).
+  - 30–69: Loosely related; overlaps in broader theme or industry.
+  - 0–29: Clearly unrelated; different subject or industry.
+
+Symbol Selection:
+- For each article, select the most relevant cryptocurrency ticker symbol (in uppercase):
+  - If the article clearly focuses on a single crypto token (e.g., Ethereum), use its symbol (e.g., "ETH").
+  - If multiple tokens are mentioned, choose the most prominent one.
+  - If no cryptocurrency is mentioned, default to "BTC".
+
+Input Format:
+- Reference news article: a plain text string.
+- List of articles: a JSON array, where each object contains at least:
+  - content_id: unique integer ID
+  - content: a string of news article text
+
+Output Format:
+Return a JSON array, where each item is an object with the following fields:
+- symbol: the selected crypto symbol (uppercase)
+- content_id: copied from the input
+- result: similarity score (integer 0–100)
+- content: copied directly from the input article’s content
+- comment: a **detailed explanation** (minimum 2 reasoning points) of why the similarity score was assigned, including key factors such as keyword overlap, event type, and contextual focus.
+
+Example Output:
+[
+  {
+    "symbol": "BTC",
+    "content_id": 2,
+    "result": 95,
+    "content": "U.S. and China negotiate mutual tariffs affecting crypto trade.",
+    "comment": "This article discusses the same U.S.–China tariff negotiations as the reference article and also mentions the impact on crypto trading. The wording is slightly different but covers the same core event."
+  },
+  {
+    "symbol": "ETH",
+    "content_id": 3,
+    "result": 75,
+    "content": "Ethereum price surges after SEC announces new guidelines.",
+    "comment": "The reference article focuses on general crypto regulation, while this article highlights a specific effect on Ethereum's price. Both share the theme of regulation, but the focal point and event are different."
+  },
+  {
+    "symbol": "BTC",
+    "content_id": 4,
+    "result": 25,
+    "content": "Oil prices soar after OPEC decision on supply cuts.",
+    "comment": "This article covers the oil market and OPEC's decision, with no mention of cryptocurrency or related financial markets. It is unrelated to the reference article in both subject and industry."
+  }
+]
+
+Important:
+- Do not simply summarize; provide concrete reasoning in each comment (at least 2 key observations).
+- The task focuses on **meaning-based similarity**, not just word overlap.

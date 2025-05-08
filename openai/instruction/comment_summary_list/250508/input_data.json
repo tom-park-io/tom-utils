@@ -1,0 +1,45 @@
+{
+  "reference_article": "Elon Musk announces that Tesla will start accepting Dogecoin for select merchandise, reigniting DOGE's price surge.",
+  "articles_list": [
+    {
+      "content_id": 1,
+      "content": "Elon Musk tweets a meme about Dogecoin, causing a 10% price spike within hours."
+    },
+    {
+      "content_id": 2,
+      "content": "A bipartisan group of U.S. lawmakers introduces a new crypto taxation bill targeting high-net-worth individuals."
+    },
+    {
+      "content_id": 3,
+      "content": "Russia explores launching its own digital ruble as sanctions tighten amid global tensions."
+    },
+    {
+      "content_id": 4,
+      "content": "A prominent Hollywood actor launches an NFT collection, selling out within minutes and generating $5 million."
+    },
+    {
+      "content_id": 5,
+      "content": "The Pentagon investigates the security implications of blockchain use in defense logistics."
+    },
+    {
+      "content_id": 6,
+      "content": "Trump's campaign accepts Bitcoin donations, marking the first major political campaign to do so in 2025."
+    },
+    {
+      "content_id": 7,
+      "content": "Vitalik Buterin warns about rising Ethereum gas fees, suggesting potential protocol adjustments."
+    },
+    {
+      "content_id": 8,
+      "content": "Mark Cuban invests in a new DeFi project focusing on yield farming and liquidity pools."
+    },
+    {
+      "content_id": 9,
+      "content": "A cyberattack on a major crypto exchange leads to a temporary halt in withdrawals worldwide."
+    },
+    {
+      "content_id": 10,
+      "content": "The IMF publishes a critical report on El Salvador's Bitcoin adoption, raising economic stability concerns."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "홍길동",
+  "age": 30,
+  "private": true,
+  "address": {
+    "city": "서울",
+    "street": "강남대로",
+    "details": {
+      "zipcode": "12345",
+      "building": "101동"
+    }
+  },
+  "hobbies": ["독서", "운동", "음악"],
+  "contacts": [
+    {
+      "type": "email",
+      "value": "hong@example.com"
+    },
+    {
+      "type": "phone",
+      "value": "010-1234-5678"
+    }
+  ]
+}

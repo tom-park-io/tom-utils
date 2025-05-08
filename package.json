@@ -1,0 +1,17 @@
+{
+  "name": "tom-utils",
+  "version": "1.0.0",
+  "repository": "git@github.com:tom-park-io/tom-utils.git",
+  "license": "MIT",
+  "author": "tom-park-io <tom@krononlabs.com>",
+  "main": "index.js",
+  "scripts": {
+    "prettier-format": "prettier --write .",
+    "prettier-lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1",
+    "sort-package-json": "^2.10.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

@@ -1,0 +1,75 @@
+{
+  "reference_article": "A new stablecoin backed by a basket of commodities gains traction among investors seeking an inflation hedge.",
+  "articles_list": [
+    {
+      "symbol": "USDT",
+      "content_id": 1,
+      "result": 95,
+      "content": "A decentralized insurance platform reports a $100 million surge in policy purchases after a recent market downturn.",
+      "comment": "This article discusses: 'A decentralized insurance platform reports a $100 million su...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects strong alignment in topic and scope."
+    },
+    {
+      "symbol": "SOL",
+      "content_id": 2,
+      "result": 65,
+      "content": "A prominent crypto analyst predicts Bitcoin will reach $100,000 within the next 12 months, citing macroeconomic trends.",
+      "comment": "This article discusses: 'A prominent crypto analyst predicts Bitcoin will reach $100,...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects a partial connection in topic and scope."
+    },
+    {
+      "symbol": "ETH",
+      "content_id": 3,
+      "result": 65,
+      "content": "The European Central Bank explores the feasibility of a digital euro, with pilot programs set to launch next year.",
+      "comment": "This article discusses: 'The European Central Bank explores the feasibility of a digi...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects a partial connection in topic and scope."
+    },
+    {
+      "symbol": "ADA",
+      "content_id": 4,
+      "result": 25,
+      "content": "A DeFi protocol introduces undercollateralized loans, aiming to attract traditional finance users.",
+      "comment": "This article discusses: 'A DeFi protocol introduces undercollateralized loans, aiming...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects a partial connection in topic and scope."
+    },
+    {
+      "symbol": "BTC",
+      "content_id": 5,
+      "result": 75,
+      "content": "Blockchain-based remittance services gain traction in Africa, reducing fees by up to 40% compared to traditional methods.",
+      "comment": "This article discusses: 'Blockchain-based remittance services gain traction in Africa...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects strong alignment in topic and scope."
+    },
+    {
+      "symbol": "USDT",
+      "content_id": 6,
+      "result": 55,
+      "content": "A major security breach at a leading DEX results in $200 million in lost funds, sparking debates about smart contract risks.",
+      "comment": "This article discusses: 'A major security breach at a leading DEX results in $200 mil...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects a partial connection in topic and scope."
+    },
+    {
+      "symbol": "SOL",
+      "content_id": 7,
+      "result": 95,
+      "content": "Crypto-backed mortgages become available in select U.S. states, blending traditional finance with blockchain.",
+      "comment": "This article discusses: 'Crypto-backed mortgages become available in select U.S. stat...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects strong alignment in topic and scope."
+    },
+    {
+      "symbol": "ADA",
+      "content_id": 8,
+      "result": 5,
+      "content": "Stablecoin market cap surpasses $150 billion, fueled by growing demand for on-chain liquidity.",
+      "comment": "This article discusses: 'Stablecoin market cap surpasses $150 billion, fueled by grow...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects a partial connection in topic and scope."
+    },
+    {
+      "symbol": "USDT",
+      "content_id": 9,
+      "result": 45,
+      "content": "An international consortium of banks tests tokenized bonds on a public blockchain network.",
+      "comment": "This article discusses: 'An international consortium of banks tests tokenized bonds o...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects a partial connection in topic and scope."
+    },
+    {
+      "symbol": "ETH",
+      "content_id": 10,
+      "result": 75,
+      "content": "New research indicates that DeFi protocols now control 10% of the total global lending market.",
+      "comment": "This article discusses: 'New research indicates that DeFi protocols now control 10% o...'. It relates to the reference article by focusing on financial and blockchain aspects such as DeFi, regulation, or crypto market movements. The similarity score reflects strong alignment in topic and scope."
+    }
+  ]
+}
